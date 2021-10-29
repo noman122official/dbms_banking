@@ -1,11 +1,14 @@
+body {
+  background-color: rgb(31, 30, 30);
+}
+
 ::-webkit-input-placeholder {
   font-size: 3vh;
-  /* //font-family:verdana; */
 }
 
 .application_search {
   margin-top: 2%;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(70, 69, 69);
   padding: 2%;
   text-align: center;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);

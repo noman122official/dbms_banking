@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(31, 30, 30);
+}
 .view_cust_byac_container_inner {
   width: 80%;
   margin: auto;
@@ -30,10 +33,11 @@
   padding-top: 2%;
   padding-bottom: 2%;
   width: 30%;
-  background-color: #c5d9e2;
+  background-color: rgb(169, 202, 218);
   text-align: center;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
+
 .view_cust_byac_container_outer input {
   padding: 4%;
   margin: 2.5%;
