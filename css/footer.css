@@ -4,13 +4,13 @@ body {
 
 footer .container {
   width: 90%;
-  background-color: fuchsia;
+  background-color: rgb(0, 0, 0);
   margin: 0px auto;
 }
 
 footer {
   clear: both;
-  background-color: #004156;
+  background-color: #000000;
   width: 100%;
   text-align: left;
 }
@@ -91,33 +91,11 @@ footer .links {
   /* //background-color:darkslategrey; */
 }
 
-footer .About_GST {
-  padding: 10px;
-  margin: 5px;
-  margin-top: 8px;
-  /* //width: 300px;
-  //height: 205px; */
-  float: left;
-  /* //background-color:darkslategrey; */
-}
-
 footer ul li {
   padding: 10px;
   list-style: none;
 }
 
-footer .copyright {
-  /* border-top: 1px solid #475f81; */
-  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #bed2dd;
-  background-color: #005f7d;
-  clear: both;
-  text-align: center;
-  width: 100%;
-  font-size: 14px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
 
 footer .bestview {
   background-color: #003344;
