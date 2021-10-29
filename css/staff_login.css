@@ -1,11 +1,12 @@
 body {
   /* //background-color: #B9EDEA; */
   margin: 0px;
+  background-color: rgb(47, 46, 46);
 }
 
 .staff_login_container h2 {
   text-align: center;
-  color: black;
+  color: rgb(37, 37, 37);
   opacity: 0.5;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -16,7 +17,7 @@ body {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   margin-top: 20px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(37, 37, 37, 0.2);
   width: 350px;
   height: 600px;
   margin: 0px auto;

@@ -7,6 +7,7 @@
 <div class="debit_card_form_container">
     <br>
 <form method="POST">
+<h2> Apply for a Debit Card Here! </h2>
 <input type="text" name="holder_name" placeholder="Account Holder Name"><br>
 <input type="text" name="dob" placeholder="Date of Birth" onfocus="(this.type='date')"><br>
 <input type="text" name="pan" placeholder="PAN"><br>

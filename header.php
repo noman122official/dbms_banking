@@ -6,8 +6,8 @@
 				<li><a href="index.php#aboutus">About Us</a></li>
                 <li><a href="index.php#contactus">Contact Us</a></li>
 				<li><a href="staff_login.php">Staff Login</a></li>
-				<li><a href="staff_login.php">Customer Login</a></li>
-				<li><a href="staff_login.php">Customer Register</a></li>
+				<li><a href="customer_login.php">Customer Login</a></li>
+				<li><a href="customer_reg_form.php">Customer Register</a></li>
 			
 			</ul>
 		</div>
@@ -31,7 +31,7 @@
 				<a href="fund_transfer.php"> Fund Transfer</a>
 			</div>
 			<div class="debit_card">
-				<a href="#"> Apply Debit Card</a>
+				<a href="debit_card_form.php"> Apply Debit Card</a>
 			</div>
 	
 		</div>
