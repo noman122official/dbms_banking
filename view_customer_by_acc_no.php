@@ -36,7 +36,7 @@
                 <label>Account Type : '.$row['Account_type']. '</label>
                 <label>IFSC Code : '.$row['IFSC_Code']. '</label>
                 <label>Branch : '.$row['Branch'].'</label>
-                <label>Available Balance : $'.$row['Current_Balance'].'</label>
+                <label>Available Balance : ₹'.$row['Current_Balance'].'</label>
                 <label>Mobile No : '.$row['Mobile_no'].'</label>
                 <label>Debit Card No : '.$row['Debit_Card_No'].'</label>
                 <label>Nominee Name : '.$row['Nominee_name'].'</label>

@@ -1,9 +1,13 @@
+body {
+  background-color: rgb(31, 30, 30);
+}
+
 .active_customers_container {
   margin: 5% auto;
   overflow-x: auto;
   overflow-y: auto;
   width: 80%;
-  background-color: antiquewhite;
+  background-color: rgb(31, 30, 30);
   height: 80%;
 }
 
@@ -22,11 +26,11 @@ table th {
 }
 
 tr:nth-child(even) {
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(144, 144, 144);
 }
 
 tr:nth-child(odd) {
-  background-color: white;
+  background-color: rgb(83, 82, 82);
 }
 
 td {
