@@ -36,6 +36,7 @@ if(!isset($_SESSION['$cust_acopening'])){
 	 <span><?php echo "Nominee Name : ".$_SESSION['nominee_name']."<br>"; ?> </span>
 	 <span><?php echo "Nominee Account no : ".$_SESSION['nominee_ac_no']."<br>"; ?> </span>
 	 <span><?php echo "Account Type : ".$_SESSION['cust_acctype']."<br>"; ?> </span><br>
+     <span><input placeholder="placeholder"></input><span>
 	 <form method="post">
 	 <div class="cnfrm-btn">
 	 <div class="btn_innerdiv">

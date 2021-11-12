@@ -36,6 +36,7 @@
 			$Last_customer_ID = rand(100,1000);
 			$ifsc = 1011;
 			$customer_id = $ifsc.$Last_customer_ID + 1;
+			$password = rand(100000,1000000);
 			$branch = "Demo Branch";
 			$acc_no = $ifsc.mt_rand(01,99).$customer_id;
 	
@@ -46,6 +47,7 @@
 	
 			$sql1 = " INSERT INTO bank_customers (
 			Username,
+			Password,
 			Gender,
 			Customer_ID,
 			Account_no,
@@ -72,7 +74,8 @@
 	
 			VALUES (
 			'$name',
-			'$gender',				
+			'$password',
+			'$gender',			
 			'$customer_id',
 			'$acc_no',
 			'$branch ',
@@ -154,7 +157,7 @@
 			//------------------------------------------------------------------------------------------ 
 			
 
-						echo '<script>alert("Account Created Successfully\n\nAccount no :'.$acc_no.'\n\nHint : Get Debit Card then register e-banking")</script>';
+						echo '<script>alert("Account Created Successfully\n\nAccount no :'.$acc_no.' Password :'.$password.' \n\nHint : Get Debit Card then register e-banking")</script>';
 				
 				}
 				else
