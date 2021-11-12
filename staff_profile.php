@@ -15,7 +15,8 @@
 				<input type="submit" name="apprvac" value="Approve Pending Account"/>
 				<input type="submit" name="view_trans" value="View Transaction"/>	
 				<input type="submit" name="del_cust" value="Delete Customer A/c"/>	
-				<input type="submit" name="credit_cust_ac" value="Credit Customer"/>	
+				<input type="submit" name="credit_cust_ac" value="Credit Customer"/>
+				<input type="submit" name="add_staff" value="Add New Staff"/>	
 			</div>
 	</form>
 
@@ -57,5 +58,9 @@ if(isset($_POST['credit_cust_ac'])){
 	
 	header('location:credit_customer_ac.php');
 }
-
+if(isset($_POST['add_staff'])){
+	
+	
+	header('location:add_staff.php');
+}
 ?>

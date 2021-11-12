@@ -3,6 +3,10 @@
   /* //font-family:verdana; */
 }
 
+body {
+  background-color: rgb(31, 30, 30);
+}
+
 .cust_passchng_container {
   background-color: #c5d9e2;
   width: 30%;

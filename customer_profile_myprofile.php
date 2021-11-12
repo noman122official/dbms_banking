@@ -1,15 +1,12 @@
-
-
-
 <html>
     <head><title>My Profile</title>
     <link rel="stylesheet" type="text/css" href="css/customer_profile_myprofile.css">
     <style>
-#customer_profile .link2{
+        #customer_profile .link2{
 
-background-color: rgba(5, 21, 71,0.4);
+        background-color: rgba(5, 21, 71,0.4);
 
-}
+        }
     </style>
 
 </head>
@@ -43,9 +40,6 @@ background-color: rgba(5, 21, 71,0.4);
     <label>Account Opening Date : <?php echo $row['Ac_Opening_Date']; ?> </label><br>
 </div>
 </div>
-
-
-
 
 
 <?php include 'footer.php'; ?>

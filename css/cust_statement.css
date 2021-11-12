@@ -1,8 +1,13 @@
+body {
+  background-color: rgb(31, 30, 30);
+}
+
 .cust_statement_container_head label {
   /* //   background-color: blueviolet; */
   display: block;
   text-align: center;
   margin-top: 1%;
+  color: white;
   /* //background-color: gray; */
   font-size: 3vh;
 }
