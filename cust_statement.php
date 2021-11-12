@@ -72,7 +72,7 @@ if($_SESSION['customer_login'] == true)
 			<td>'.$row['Description'].'</td>
 			<td>'.$row['Cr_amount'].'</td>
 			<td>'.$row['Dr_amount'].'</td>
-			<td>$'.$row['Net_Balance'].'</td>
+			<td>₹'.$row['Net_Balance'].'</td>
 			</tr>';
 	}
 	

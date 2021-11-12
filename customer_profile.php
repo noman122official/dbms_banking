@@ -35,7 +35,7 @@ if($_SESSION['customer_login'] == FALSE)
                 <label>Account Number : <?php echo $_SESSION['Account_No']; ?></label>
                  <label>Account Name : <?php echo $_SESSION['Username']; ?></label>
                 <label>Account Type : <?php echo $_SESSION['Account_type']; ?></label>
-                <label>Available Balance : $<?php echo $current_bal ; ?></label>  
+                <label>Available Balance : ₹<?php echo $current_bal ; ?></label>  
             </div>
     <div class="statement">
                 <label class="heading">Bank Statement</label>
@@ -66,7 +66,7 @@ if($_SESSION['customer_login'] == FALSE)
 			<td>'.$row['Description'].'</td>
 			<td>'.$row['Cr_amount'].'</td>
 			<td>'.$row['Dr_amount'].'</td>
-			<td>$'.$row['Net_Balance'].'</td>
+			<td>₹'.$row['Net_Balance'].'</td>
 			</tr>';
 	}
 	

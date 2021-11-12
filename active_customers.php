@@ -53,13 +53,13 @@
 			<td>'.$row['Mobile_no'].'</td>
 			<td>'.$row['Email_ID'].'</td>
 			<td>'.$row['DOB'].'</td>
-			<td>$'.$row['Current_Balance'].'</td>
+			<td>₹'.$row['Current_Balance'].'</td>
 			<td>'.$row['PAN'].'</td>
 			<td>'.$row['CITIZENSHIP'].'</td>
 			<td>'.$row['Debit_Card_No'].'</td>
 			<td>'.$row['CVV'].'</td>
 			<td>'.$row['Last_Login'].'</td>
-			<td>$'.$row['LastTransaction'].'</td>
+			<td>₹'.$row['LastTransaction'].'</td>
 			<td>'.$row['Account_Status'].'</td>
 			</tr>';
 	}

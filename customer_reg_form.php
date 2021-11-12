@@ -28,17 +28,8 @@
 				 <input class="address" type="text" name="homeaddrs" placeholder="Home Address" required  />
 				 <input class="address" type="text" name="officeaddrs" placeholder="Office Address" />
 				 <input type="text" name="country" placeholder="India" value="India" readonly="readonly" />
-
-
-				<input type="text" name="state" placeholder="State" required />
-				
-
-
-				<input type="text" name="city" placeholder="City" required />
-
-
-
-				 
+				 <input type="text" name="state" placeholder="State" required />
+				 <input type="text" name="city" placeholder="City" required />
 				 <input type="text" name="pin" placeholder="Pin Code" required />
 				 <input type="text" name="arealoc" placeholder="Area/Locality" required />
 				 <input type="text" name="nominee_name" placeholder="Nominee Name (If any)" />
