@@ -6,7 +6,7 @@ body {
     margin: 5% auto;
     padding-top: 2%;
     padding-bottom: 2%;
-    width: 30%;
+    width: 40%;
     background-color: rgb(169, 202, 218);
     text-align: center;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
@@ -15,7 +15,7 @@ body {
 .view_cust_byac_container_outer input {
     padding: 4%;
     margin: 2.5%;
-    width: 60%;
+    width: 80%;
 }
 
 .view_cust_byac_container_outer input[type="submit"] {
@@ -39,8 +39,8 @@ body {
     width: 80%;
     margin: 2% auto;
     height: 70%;
-    /* //overflow-y:auto; */
-    overflow-x: hidden;
+    overflow-y:auto; 
+    overflow-x:auto;
     border: 1px ligh black;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
@@ -49,6 +49,7 @@ body {
     font-size: 3vh;
     width: 100%;
     /* //background-color: cadetblue; */
+    overflow-x:scroll;
     text-align: center;
 }
 .cust_statement table {

@@ -14,6 +14,7 @@
 			$landline = $row['Landline_no'];
 			$pan = $row['PAN'];
 			$citizenship = $row['CITIZENSHIP'];
+			$balance = 2000;
 			$dob = 	$row['DOB'];
 			$email = $row['Email_id'];     
 			$home_addr = $row['Home_Addr'];
@@ -57,6 +58,7 @@
 			Landline_no,
 			PAN,
 			CITIZENSHIP,
+			Current_Balance,
 			DOB,
 			Email_ID,
 			Home_Addr,
@@ -84,6 +86,7 @@
 			'$landline',
 			'$pan',
 			'$citizenship',
+			'$balance',
 			'$dob',
 			'$email',     
 			'$home_addr',
@@ -135,28 +138,7 @@
 					
 					$conn->commit();
 
-			//OTP integration for sending new account greeting and account details to customer-------------
-			//---------------------------------------------------------------------------------------------
-
-			// require('textlocal.class.php');
-			// $apikey = 'Mzie479SxfY-Z7slYf9AI3zVXCAu0G5skUBQVYOfRU';
-			// $textlocal = new Textlocal(false,false,$apikey);
-			// $numbers = array($mob_no);
-			// $sender = 'TXTLCL';
-			// $message = 'Welcome to Online Banking System. Your account number is  '.$acc_no.' Consider using our 24x7 Internet banking services to get full advantage. Happy banking.' ;
-		
-			// try {
-			// 	$result = $textlocal->sendSms($numbers, $message, $sender);
-			// 	print_r($result);
-			// } catch (Exception $e) {
-			// 	die('Error: ' . $e->getMessage());
-			// }
-
-
-			//------------------------------------------------------------------------------------------
-			//------------------------------------------------------------------------------------------ 
 			
-
 						echo '<script>alert("Account Created Successfully\n\nAccount no :'.$acc_no.' Password :'.$password.' \n\nHint : Get Debit Card then register e-banking")</script>';
 				
 				}
