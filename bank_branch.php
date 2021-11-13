@@ -1,6 +1,3 @@
-
-
-
 <html>
 <head><title>Bank Branch</title>
 <style>
@@ -20,8 +17,6 @@ body{
     box-shadow: 1px 1px 5px black;
 
 }
-
-
 </style>
 
 
