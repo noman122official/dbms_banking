@@ -1,34 +1,38 @@
 <html>
 <head></head>
 <title>Add Staff</title>
+<link rel="stylesheet" type="text/css" href="css/add_staff.css"/>
 <body>
 <?php include 'header.php' ;
         include 'staff_profile_header.php' ;
 ?>
-
-<div class="add_staff_container">
-<br>
-<form method="post">
-<input type="text" name="Staff_name" placeholder="Staff Name" required><br>
-<input type="text" name="Mobile_no" placeholder="Mobile no (10 Digits)" required><br>
-<input type="text" name="email" placeholder="Email Id" required><br>
-<select name="gender" required>
-<option value="" disabled selected>Gender</option>
-<option value="Male">Male</option>
-<option value="Female">Female</option>
-</select><br>
-<input type="text" name="pan_no" placeholder="Pan No" required ><br>
-<input type="text" name="citizenship" placeholder="CITIZENSHIP No" required><br>
-<input type="date" name="dob" required ><br>
-<select name="dept" required>
-<option value="" disabled selected>Department</option>
-<option value="Revenue" >Revenue</option>
-<option value="Cash Deposit" >Cash Deposit</option>
-</select><br>
-<input type="text" name="address" placeholder="Address"><br>
-<input type="submit" name="submit" value="Add Staff"><br>
-</form><br>
+<div class="container_regfrm_container_parent">
+	<h3>Add Staff</h3>
 </div>
+<div class="container_regfrm_container_parent_child">
+		<form method="post">
+				 <input type="text" name="Staff_name" placeholder="Staff Name" required />
+				 <select name ="gender" required >
+					  <option class="default" value="" disabled selected>Gender</option>
+					  <option value="Male" required >Male</option>
+					  <option value="Female">Female</option>
+					  <option value="Others">Others</option>
+				</select>
+				 <input type="text" name="Mobile_no" placeholder="Mobile no (10 Digits)" required />
+				 <input type="text" name="email" placeholder="Email id" />
+				 <input type="text" name="dob" placeholder="Date of Birth" onfocus="(this.type='date')" required />
+				 <input type="text" name="pan_no" placeholder="PAN Number" required />
+				 <input type="text" name="citizenship" placeholder="Citizenship Number" required />
+			     <select name ="dept" required >
+					  <option class="default" value="" disabled selected>Staff Type</option>
+					  <option value="Revenue">Revenue</option>
+					  <option value="Cash Deposit">Cash Deposit</option>
+				</select>
+                <input class="address" type="text" name="address" placeholder="Address" required  />
+				<input type="submit" name="submit" value="Add">
+				</form>
+         </div>
+	
 <?php  include 'footer.php'; ?>
 </body>
 </html>
