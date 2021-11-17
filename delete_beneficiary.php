@@ -115,7 +115,7 @@ if(isset($_POST['delete_beneficiary'])){
         if($conn->query($sql)  == TRUE){
     
 
-            echo  '<script>alert("Beneficiary Deleated Successfully")
+            echo  '<script>alert("Beneficiary Deleted Successfully")
 			location="delete_beneficiary.php"
 			</script>';
             
