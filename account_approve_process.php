@@ -1,4 +1,3 @@
-	
 <?php 
 		if(isset($_POST['approve_cust'])){
 		
