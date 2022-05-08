@@ -38,7 +38,7 @@
    
 
         <div id="aboutus" class="about"><span>About Us</span><br><br>
-        <p>This is our Data Base Management System Mini Project. We have created an online banking system using mysql and PHP, which has the following functionality: Open Account, Create Account, Fund Transfer etc. Made by: Akalbir, Naman, Yashowardhan.
+        <p>This is our Data Base Management System Mini Project. We have created an online banking system using mysql and PHP, which has the following functionality: Open Account, Create Account, Fund Transfer etc. Made by: Akalbir, Naman, Yashowardhan, Ruchi.
 </p></div>
     
     
